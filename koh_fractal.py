@@ -1,3 +1,4 @@
+
 import turtle
 
 stroka ="F"
@@ -14,6 +15,7 @@ iterations = int(input("How much iterations?"))
 for i in range(iterations):
     stroka = transformation(stroka, **rule)
 
+turtle.tracer(0,0)
 turtle.penup()
 turtle.setposition(-400, 350)
 turtle.pendown()
@@ -24,6 +26,6 @@ for ch in stroka:
     elif ch == "-":
         turtle.left(90)
     else: #F
-        turtle.forward(20)
+        turtle.forward(1)
 turtle.update()
-turtle.done()
+

@@ -1,4 +1,6 @@
-n1 = 16*5
+"""
+I solve equation x^2 = 1 in ring Z/n.
+"""
 
 def solver(n):
     solution = []
@@ -14,5 +16,6 @@ def solver(n):
             solution.append(i)
     return solution
 
+n1 = int(input())
 
 print(solver(n1))
