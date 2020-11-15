@@ -28,4 +28,4 @@ for ch in stroka:
     else: #F
         turtle.forward(1)
 turtle.update()
-
+# Ненужный комментарий
